@@ -1,0 +1,19 @@
+{
+  "name": "Customized Feed",
+  "version": "0.1.0",
+  "description": "This application takes the Techcrunch RSS feed and replaces the truncated content with the full content from the linked page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Willerich",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.18.0",
+    "feed-read": "0.0.1",
+    "hapi": "^8.1.0",
+    "request": "^2.51.0",
+    "rss": "^1.1.1"
+  }
+}
